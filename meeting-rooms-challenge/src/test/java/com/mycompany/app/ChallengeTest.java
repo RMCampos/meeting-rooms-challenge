@@ -32,5 +32,12 @@ public class ChallengeTest {
         }));
         // Should be 2: Same as your example, but shuffled
         Assertions.assertEquals(2, challenge.start(new int[][]{{15, 20}, {5, 10}, {0, 30}}));
+        // Should be 4
+        Assertions.assertEquals(4, challenge.start(new int[][]{
+            {0, 30},
+            {5, 15}, 
+            {10, 20}, 
+            {11, 12}
+        }));
     }
 }
