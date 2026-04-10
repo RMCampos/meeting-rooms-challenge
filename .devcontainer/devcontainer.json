@@ -1,0 +1,24 @@
+{
+  "name": "Codecon Challenge",
+  "image": "mcr.microsoft.com/devcontainers/java:21-trixie",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21",
+      "jdkDistro": "tem",
+      "installMaven": true,
+      "mavenVersion": "latest",
+      "installGradle": false,
+      "gradleVersion": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "forwardPorts": [8080]
+}
