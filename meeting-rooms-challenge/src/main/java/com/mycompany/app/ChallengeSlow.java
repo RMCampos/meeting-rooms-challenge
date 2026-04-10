@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Challenge {
+public class ChallengeSlow {
 
     public int start(int[][] meetings) {
         if (meetings.length == 0) {
